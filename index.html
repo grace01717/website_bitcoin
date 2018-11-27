@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title><project 5> 實際應用範例 bootstrap-結合skrollr製作捲動式網頁</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<nav class="navbar navbar-default navbar-fixed-top navbar-top">
+  <div class="container">
+    <div class="navbar-header"><a class="navbar-brand">BITCOIN</a></div>
+    <div class="navbar-collapse collapse">
+      <div class="nav navbar-nav navbar-right">
+        <li><a href="#section_ask">引言 INTRO </a></li>
+        <li><a href="#section_about">簡介 ABOUT </a></li>
+        <li><a href="#section_story">市場 MT </a></li>
+        <li><a href="#section_future">分析 ANALY</a></li>
+      </div>
+    </div>
+  </div>
+</nav>
+<header class="jumbotron">
+  <div class="container">
+    <h1 data-0="transform: translateY(-50px)" data-500="transform: translateY(100px)">比特幣</h1>
+    <hr/>
+    <h4>全球經濟市場的目光焦點-你今天挖礦了嗎?</h4>
+  </div>
+</header>
+<section id="section_ask">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5 img" data-0="transform: translateX(-200px)" data-500="transform: translateY(0px)"></div>
+      <div class="col-sm-7" data-300="opacity: 0" data-500="opacity: 1">
+        <h2>比特幣是什麼?</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section_about">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12" data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1">
+        <h1>關於比特幣</h1>
+        <hr/>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="img_wrap" data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1"><img src="http://pngimg.com/uploads/bitcoin/bitcoin_PNG41.png" alt=""/></div>
+        <h3 data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1">概念</h3>
+        <p data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1">比特幣是第一個不需要中央發行機構發行的數位貨幣，是透過網路便可交易的虛擬貨幣，好處在於可以透過網路直接轉帳，不需透過中介機構，手續費相對會比較低，接收這些貨幣完全不需要任何代價，而且創辦帳戶也很容易。<br><br>比特幣系統不會出現退單狀況，你也可以在這個平台上找到更多生意。此外，每個國家都接受比特幣，所以帳戶不能被凍結，也沒有任何先決條件或獨斷限制。</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="img_wrap" data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1"><img src="https://techflourish.com/images/birthday-money-wallets-clipart-free.png" alt=""/></div>
+        <h3 data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1">操作</h3>
+        <p data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1">你可以用一些貨幣買比特幣，例如美金、歐元等，將比特幣存在電腦上或是行動裝置裡的電子錢包，電子錢包依照性質又分為「冷錢包」和「熱錢包」。<br><br>冷錢包是指將個人私鑰離線存放的裝置，與網路隔離，不容易被駭客侵入，安全度也較高，但缺點是提取速度較慢，就像是你把貴重珠寶放在銀行保險箱，必須用多把鑰匙才能打開；熱錢包相對是存在連網的位置，較方便易用，可按照個人需求選擇。此外，轉出比特幣就跟寄電子郵件一樣簡單，而且可以買任何東西。</p>
+      </div>
+      <div class="col-md-4 col-sm-6">
+        <div class="img_wrap" data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1"><img src="http://www.criptonotizia.com/wp-content/uploads/2017/03/GCR-Miner.png" alt=""/></div>
+        <h3 data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1">挖礦</h3>
+        <p data-bottom-top="transform: translateY(-50px);opacity: 0" data-center="transform: translateY(0px);opacity: 1">比特幣的網路是由一群叫miner的人監督維護，這些miner依據每筆交易獲得比特幣獎賞，每筆交易通過認證後都會被記錄在公共帳簿裡。比特幣開創了一個創新平台，軟體源完全公開。<br><br>任何人都可以去檢視程式碼，只要能連上網路，和有適當的中央處理器CPU、圖形處理器GPU、特殊應用積體電路ASIC等電腦裝置，稱為「礦機」，任何人都可挖礦。比特幣改變金融方式就像網路對出版業一樣，每個人都可以接觸全球市場。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section_story">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4 map" data-bottom-top="transform: translateX(-50px)" data-center="transform: translateX(0px)"> </div>
+      <div class="col-sm-8">
+        <div class="col-sm-12">
+          <h2>台灣哪裡可以做交易</h2>
+          <hr/>
+        </div>
+        <div class="col-sm-12 features">
+          <div class="row">
+            <div class="col-xs-6 col-sm-3" data-bottom-top="transform: scale(1.5);opacity: 0" data-center="transform: scale(1);opacity: 1"><i class="fa fa-desktop"></i>
+              <h4>幣托</h4>
+            </div>
+            <div class="col-xs-6 col-sm-3" data-bottom-top="transform: scale(1.5);opacity: 0" data-center="transform: scale(1);opacity: 1"><i class="fa fa-desktop"></i>
+              <h4>MaiCoin</h4>
+            </div>
+            <div class="col-xs-6 col-sm-3" data-bottom-top="transform: scale(1.5);opacity: 0" data-center="transform: scale(1);opacity: 1"><i class="fa fa-university"></i>
+              <h4>第三方交易所</h4>
+            </div>
+            <div class="col-xs-6 col-sm-3" data-bottom-top="transform: scale(1.5);opacity: 0" data-center="transform: scale(1);opacity: 1"><i class="fa fa-building-o"></i>
+              <h4>OTC </h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12">
+          <p>「幣托」和「MaiCoin」目前擁有最多用戶，不但是中文介面、台幣交易，手續簡便，報價包含成本，註冊用戶可選擇連結銀行帳戶、ATM轉帳付款，還可親自到配合的全家及萊爾富超商繳費。第三方交易所，經營資訊相對透明或成交量要大則為重要考量，通常需要實名認證和外幣帳戶，或是透過電匯轉帳。至於OTC，自行張貼或根據公告進行個人對個人交易，可以與不同國家的個人用戶直接談價，但有手續費及潛在交易風險。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="section_future">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2>比特幣的風險</h2>
+        <hr/>
+      </div>
+      <div class="col-sm-6"><img src="https://img.chinatimes.com/newsphoto/2017-12-07/656/20171207003077.jpg" alt="" data-bottom-top="filter: grayscale(100%)" data-center="filter: grayscale(0%)"/></div>
+      <div class="col-sm-6 feature" data-bottom-top="transform: translateX(50px)" data-center="transform: translateX(0px)"><i class="fa fa-dollar"></i>
+        <h3>價格</h3>
+        <p>價格波動相當大且不易預期，可能產生投資風險或兌換風險。</p>
+      </div>
+      <div class="col-sm-6 feature" data-bottom-top="transform: translateX(50px)" data-center="transform: translateX(0px)"><i class="fa fa-handshake-o"></i>
+        <h3>交易</h3>
+        <p>缺乏專屬法規的交易保障機制，造成有心人士可在網路上佯稱買賣比特幣而行詐騙之實。</p>
+      </div>
+      <div class="col-sm-6 feature" data-bottom-top="transform: translateX(50px)" data-center="transform: translateX(0px)"><i class="fa fa-cubes"></i>
+        <h3>市場</h3>
+        <p>儲存於電子錢包的比特幣，也可能遭駭客竊取、病毒攻擊而平白消失，且交易平台也有遭駭、或因涉非法交易遭政府關閉的風險。</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="jumbotron">
+  <div class="container">
+    <h2>想了解更多比特幣相關的資訊嗎?</h2>
+    <input class="form-control" placeholder="Email"/>
+    <hr/>
+    <button class="btn btn-default">訂閱故事</button>
+  </div>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
